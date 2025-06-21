@@ -3,7 +3,7 @@
 # bien suivre les instruction plusieurs etapes !
 # c'est un projet en cours car je suit pas satisfait manque quelque correction par exemple l'item transformer en props et visible mais c'est pas un props libre
 # si vous voyez ceux que je veut dire 
-# en gros tu ta dedans a pieds il bouge la c'est pas le cas -__- je suit dessus 
+# en gros tu tape dedans avec les pieds ou en voiture il bouge ! la c'est pas le cas -__- je suit dessus 
 
 #####  coter client dans votre ox_inventory :
 
