@@ -2,11 +2,11 @@
 # code qui vous permettra que convertir un item en props et un props en item  directement dans ox_inventory sans script externe full configurable et open source :
 # bien suivre les instruction plusieurs etapes !
 
-##################################################################################################
-##################################################################################################
+
+
+
 #####  coter client dans votre ox_inventory :
-##################################################################################################
-##################################################################################################
+
 
 local spawnedProps = {}
 
@@ -14,7 +14,7 @@ RegisterNetEvent('ox_inventory:createdrop', function(drop)
     if not drop or not drop.coords or not drop.items or #drop.items == 0 then return end
 
 local propNames = {
-    ['bouteille_vide']     = 'prop_water_bottle',
+    ['bouteille_vide'] = 'prop_water_bottle',
     ['water'] = 'prop_ld_flow_bottle',
 
 }
@@ -62,11 +62,11 @@ AddEventHandler('ox_inventory:removedrop', function(id)
 end)
 
 
-##################################################################################################
-##################################################################################################
-##### COTER SERVER de ox_inventory :
-##################################################################################################
-##################################################################################################
+
+
+
+# COTER SERVER de ox_inventory :
+
 
 local itemProps = {
     ['bouteille_vide']     = 'prop_water_bottle',
@@ -103,16 +103,10 @@ end, {
     typeFilter = { player = true }
 })
 
-##################################################################################################
-##################################################################################################
-###### si sa fonctionne toujours pas suivre les indication suivantes : 
-##################################################################################################
-########################################################################################
 
-## dans init.lua dans ox_inventory  :
-
-
-# vous devait avoir cette ligne : 
+## si sa fonctionne toujours pas suivre les indication suivantes 
+## va dans init.lua dans ox_inventory  
+## vous devait avoir c'est lignes : 
 
 dropprops = GetConvarInt('inventory:dropprops', 1) == 1,
 dropmodel = joaat(GetConvar('inventory:dropmodel', 'prop_med_bag_01b')),
