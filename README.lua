@@ -3,10 +3,7 @@
 # bien suivre les instruction plusieurs etapes !
 
 
-
-
 #####  coter client dans votre ox_inventory :
-
 
 local spawnedProps = {}
 
@@ -15,7 +12,6 @@ RegisterNetEvent('ox_inventory:createdrop', function(drop)
 
 local propNames = {
     ['bouteille_vide'] = 'prop_water_bottle',
-    
     ['water'] = 'prop_ld_flow_bottle',
 
 }
@@ -61,8 +57,6 @@ AddEventHandler('ox_inventory:removedrop', function(id)
     end
     spawnedProps[id] = nil
 end)
-
-
 
 
 
@@ -115,7 +109,7 @@ dropmodel = joaat(GetConvar('inventory:dropmodel', 'prop_med_bag_01b')),
 
 
 # dans votre cfg 
-# vous devrait mettre sa : 
+# vous devrait mettre  sa  : 
 
 setr inventory:dropprops false
 setr inventory:dropmodel ""
