@@ -1,7 +1,8 @@
 # esx_convertisseur_item_props
 # code qui vous permettra que convertir un item en props et un props en item  directement dans ox_inventory sans script externe full configurable et open source :
 # bien suivre les instruction plusieurs etapes !
-
+# c'est un projet en cours car je suit pas satisfait manque quelque correction par exemple l'item transformer en props et visible mais c'est pas un props libre si vous voyez ceux que je veut dire 
+# en gros tu ta dedans a pieds il bouge la c'est pas le cas -__- je suit dessus 
 
 #####  coter client dans votre ox_inventory :
 
