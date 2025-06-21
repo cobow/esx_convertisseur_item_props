@@ -15,6 +15,7 @@ RegisterNetEvent('ox_inventory:createdrop', function(drop)
 
 local propNames = {
     ['bouteille_vide'] = 'prop_water_bottle',
+    
     ['water'] = 'prop_ld_flow_bottle',
 
 }
