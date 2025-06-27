@@ -101,6 +101,35 @@ end, {
 })
 
 
+
+
+
+
+
+
+
+# dans votre cfg 
+# vous devrait mettre  sa  : 
+
+setr inventory:dropprops false
+setr inventory:dropmodel ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## si sa fonctionne toujours pas suivre les indication suivantes 
 ## va dans init.lua dans ox_inventory  
 ## vous devait avoir c'est lignes : 
@@ -110,11 +139,6 @@ dropmodel = joaat(GetConvar('inventory:dropmodel', 'prop_med_bag_01b')),
 
 
 
-# dans votre cfg 
-# vous devrait mettre  sa  : 
-
-setr inventory:dropprops false
-setr inventory:dropmodel ""
 
 
 # j'espere sa vous aurra bien aidez pour tout question rejoingnez mon discords : https://discord.gg/3sUuFGVq 
